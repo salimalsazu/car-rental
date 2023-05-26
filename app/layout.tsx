@@ -17,8 +17,7 @@ export default function RootLayout({ children }: LayoutProps) {
     <html lang="en">
       <body className="mx-10 lg:mx-40 mt-10">
         <Navbar />
-
-        <main>
+        <main className="">
           {children}
         </main>
 
